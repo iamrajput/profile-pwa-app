@@ -1,7 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'profile-pwa-nuxt',
@@ -28,13 +27,6 @@ export default {
   router: {
     // linkActiveClass: 'active',
     linkExactActiveClass: 'active',
-    // extendRoutes(routes, resolve) {
-    //   routes.push({
-    //     name: 'custom',
-    //     path: '*',
-    //     component: resolve(__dirname, 'pages/404.vue'),
-    //   })
-    // },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
