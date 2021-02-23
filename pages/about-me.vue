@@ -8,7 +8,7 @@
       Let me tell you a few things...
     </h2>
     <div class="about-info">
-      <img src="/atul7.jpg" alt="John Doe" class="bio-image">
+      <img src="/images/atul7.jpg" alt="John Doe" class="bio-image">
 
       <div class="bio">
         <h3 class="text-secondary">BIO</h3>
