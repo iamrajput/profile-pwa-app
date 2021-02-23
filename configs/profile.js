@@ -2,7 +2,7 @@ export default {
   name: 'ATUL KUMAR SINGH',
   description:'I am a hardworking, enthusiastic, efficient IT professional with a keen interest to learn and take up instructions and responsibilities.\n' +
     '\n',
-  logo: 'Atul.jpg',
+  logo: 'atul.jpg',
   favicon_logo: '/images/atul_fab.png',
   background_color: '#ebf1fc',
   theme_color: '#262761',
