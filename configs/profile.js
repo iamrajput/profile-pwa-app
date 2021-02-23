@@ -1,17 +1,12 @@
 export default {
-  client_name: 'The Archway App',
-  client_description:
-    "We know it's tough to be a college student right now. How will I join clubs? How will I get others to join my clubs? What if I don't meet any new friends?\n" +
-    '\n' +
-    "As college students, we've tailored our software specifically to tackle these major challenges... and we believe we've solved them.\n" +
-    '\n' +
-    'Archway is a social network EXCLUSIVELY for college students to connect with their campus community.',
-  client_logo: 'archway.png',
-  favicon_logo: '/images/archway-fav.png',
+  name: 'ATUL KUMAR SINGH',
+  description:'I am a hardworking, enthusiastic, efficient IT professional with a keen interest to learn and take up instructions and responsibilities.\n' +
+    '\n',
+  logo: 'Atul.jpg',
+  favicon_logo: '/images/atul_fab.png',
   background_color: '#ebf1fc',
   theme_color: '#262761',
   progress_bar_colour: '#262761',
-  logo: 'https://tagfi-s3-dev1.s3.amazonaws.com/Archway_logo.png',
 
   manus: [
     {
@@ -60,36 +55,18 @@ export default {
   url: 'https://iamrajput.github.io/'
 },
 ],
-
   social_accounts: {
-    facebook: 'https://www.facebook.com/thearchwayapp',
-    twitter: '',
-    linkedin: 'https://www.linkedin.com/showcase/archwayapp',
-    instagram: 'https://www.instagram.com/archway.app/',
+    facebook: 'https://www.facebook.com/atulkumar.singh.1420',
+    twitter: 'https://twitter.com/atul_rajput7',
+    linkedin: 'https://www.linkedin.com/in/atul-kumar-singh-673357102/',
+    instagram: 'https://www.instagram.com/atul_singh_rajput7/',
+    github:'https://github.com/iamrajput',
+    devto:'https://dev.to/atul1995'
   },
 
-  images: {
-    logo: '/images/archway_logo.png',
-    favicon: '/images/archway-fav.png',
-  },
 
-  links: {
-  },
 
-  texts: {
-    banner_1: 'Establish',
-    banner_2: 'New Connections',
-    banner_3: 'Discover'
-  },
 
-  flags: {
-    show_newsletter: true,
-    show_membership_button: true,
-  },
-  landingPageButton: {
-    promoPopup: true,
-    watchVideo: true,
-  },
 }
 
 

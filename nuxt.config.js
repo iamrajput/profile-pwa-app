@@ -1,16 +1,23 @@
+import config from './configs'
+const profile = config('profile')
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'profile-pwa-nuxt',
+    title: 'ATUL SINGH RAJPUT',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: profile.favicon_logo || '/favicon.ico',
+      },
       {
         rel: 'stylesheet',
         type: 'text/css',
@@ -57,9 +64,16 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: {
+      fileName: profile.logo,
+    },
     manifest: {
-      lang: 'en'
-    }
+      name: profile.name,
+      short_name: profile.name,
+      description: profile.description,
+      background_color: profile.background_color,
+      theme_color: profile.theme_color,
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -1,4 +1,4 @@
-# profile-pwa-nuxt
+# Profile-PWA-APP
 
 ## Build Setup
 
@@ -16,5 +16,8 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+# Demo Link
+[My portfolio](https://iamrajput.netlify.app/)
+
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
