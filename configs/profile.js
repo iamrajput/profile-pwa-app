@@ -7,6 +7,7 @@ export default {
   background_color: '#ebf1fc',
   theme_color: '#262761',
   progress_bar_colour: '#262761',
+  my_logo:'https://tagfi-s3-dev1.s3.amazonaws.com/atul7.jpg',
 
   manus: [
     {

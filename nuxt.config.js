@@ -10,7 +10,47 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          profile.description ||
+          'I am a hardworking, enthusiastic, efficient IT professional with a keen interest to learn and take up instructions and responsibilities.\n' +
+          '\n',
+      },
+      {
+        property: 'og:title',
+        content: profile.name || 'ATUL KUMAR SINGH',
+      },
+      {
+        name: 'twitter:title',
+        content: profile.name || 'ATUL KUMAR SINGH',
+      },
+      {
+        property: 'og:description',
+        content:
+          profile.client_description ||
+          'I am a hardworking, enthusiastic, efficient IT professional with a keen interest to learn and take up instructions and responsibilities.\n' +
+          '\n',
+      },
+      {
+        property: 'og:image',
+        content:
+          profile.my_logo ||
+          'https://tagfi-s3-dev1.s3.amazonaws.com/empty-img.png',
+      },
+      {
+        property: 'og:image:alt',
+        content: profile.name || 'ATUL KUMAR SINGH',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          profile.description ||
+          'I am a hardworking, enthusiastic, efficient IT professional with a keen interest to learn and take up instructions and responsibilities.',
+      },
+      { name: 'twitter:card', content: `summary_large_image` },
+      { property: 'og:site_name', content: profile.name },
     ],
     link: [
       {
