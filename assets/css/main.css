@@ -106,7 +106,7 @@ body {
     background: url(../img/background.jpg);
     background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; } 
+    background-size: cover; }
 
 h1,
 h2,
@@ -262,7 +262,7 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/atul7.jpg");
-      width: 150px;
+      width: 240px;
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
@@ -280,3 +280,10 @@ main {
       font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }
+
+
+@media (max-width: 360px) {
+  .menu-branding .portrait img {
+    transform: scale(0.5);
+  }
+}
