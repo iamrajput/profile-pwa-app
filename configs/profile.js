@@ -1,10 +1,10 @@
 export default {
-  name: 'ATUL KUMAR SINGH',
+  name: 'ATUL SINGH RAJPUT',
   description:'I am a hardworking, enthusiastic, efficient IT professional with a keen interest to learn and take up instructions and responsibilities.\n' +
     '\n',
   logo: 'atul.png',
   favicon_logo: '/images/atul_fab.png',
-  background_color: '#ebf1fc',
+  background_color: '#0ba2aa',
   theme_color: '#262761',
   progress_bar_colour: '#262761',
   my_logo:'https://tagfi-s3-dev1.s3.amazonaws.com/atul7.jpg',
