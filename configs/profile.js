@@ -64,10 +64,6 @@ export default {
     github:'https://github.com/iamrajput',
     devto:'https://dev.to/atul1995'
   },
-
-
-
-
 }
 
 
